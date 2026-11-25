@@ -30,9 +30,11 @@ Penulis
 
 ![Foto Khanza Ardelia Sumardi](images/author/Khanza.jpeg){.author-portrait width=1.5in fig-align="right" fig-pos="H"}
 
-**[Khanza Ardelia Sumardi](https://www.linkedin.com/in/khanza-ardelia-sumardi-556759426/)** bekerja sebagai Dosen di Prodi Sains Data Institut Teknologi Sains Bandung. Beliau adalah meraih gelar Magister-nya dari Departemen Matematika Terapan (Applied Mathematics) National Sun Yat Sen University, Taiwan. Selain mengajar beliau juga pernah bekerja sebagai **Data Scientist Freelance** di perusahaan-perusahaan ternama seperti [JNE](https://www.jne.co.id/id/beranda), [Samora Group](https://www.samoragroup.co.id/home/en), [Pertamina](https://www.pertamina.com/), dan saat ini masih aktif sebagai **Data Scientist Freelance** di [PT. Green City Traffic](PT. Green City Traffic). Beliau memiliki antusiasme khusus dalam mengerjakan proyek (mengajar) Big Data Analytics, Machine Learning, Optimisasi, dan Analisis Time Series di bidang keuangan dan investasi. Keahlian utama yang dimilikinya adalah bahasa pemrograman Statistik seperti R Studio dan Python. Beliau juga sudah terbiasa dalam mengaplikasikan sistem basis data MySQL/NoSQL untuk manajemen data, serta mahir dalam menggunakan tools Big Data seperti Spark dan Hadoop. Beberapa project beliau dapat dilihat di link berikut: [Rpubs](https://rpubs.com/dsciencelabs), [Github](https://github.com/dsciencelabs), [Website](https://dsciencelabs.github.io/web/index.html), dan [Kaggle](https://www.kaggle.com/baktisiregar/code). 
+**[Khanza Ardelia Sumardi](https://www.linkedin.com/in/khanza-ardelia-sumardi-556759426/)** merupakan mahasiswa baru Program Studi Sains Data di Institut Teknologi Sains Bandung (ITSB), angkatan 2026. Saat ini, ia sedang menempuh pendidikan dan mengembangkan pengetahuan di bidang sains data, khususnya dalam statistika, analisis data, serta pemrograman.
 
+Sebagai mahasiswa baru, Khanza memiliki ketertarikan untuk mempelajari berbagai penerapan teknologi dan pengolahan data dalam kehidupan sehari-hari. Melalui proses perkuliahan dan berbagai kegiatan akademik, ia terus mengembangkan kemampuan berpikir analitis, pemecahan masalah, serta keterampilan dalam menggunakan teknologi untuk mengolah dan memahami data.
 
+E-book ini merupakan salah satu bagian dari proses pembelajaran dan pengembangan kemampuan Khanza selama menempuh pendidikan di Program Studi Sains Data ITSB.
 ## Ucapan Terima Kasih 
 
 Proses penulisan Tempate eBook ini tidak terlepas dari dukungan berbagai pihak. Saya ingin mengucapkan terima kasih kepada:
