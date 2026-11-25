@@ -35,6 +35,7 @@ Penulis
 Sebagai mahasiswa baru, Khanza memiliki ketertarikan untuk mempelajari berbagai penerapan teknologi dan pengolahan data dalam kehidupan sehari-hari. Melalui proses perkuliahan dan berbagai kegiatan akademik, ia terus mengembangkan kemampuan berpikir analitis, pemecahan masalah, serta keterampilan dalam menggunakan teknologi untuk mengolah dan memahami data.
 
 E-book ini merupakan salah satu bagian dari proses pembelajaran dan pengembangan kemampuan Khanza selama menempuh pendidikan di Program Studi Sains Data ITSB.
+
 ## Ucapan Terima Kasih 
 
 Proses penulisan Tempate eBook ini tidak terlepas dari dukungan berbagai pihak. Saya ingin mengucapkan terima kasih kepada:
