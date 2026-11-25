@@ -28,7 +28,7 @@ Penulis
 
 ## Penulis 
 
-![Foto Khanza Ardelia Sumardi](images/author/Khanza.jpeg){.author-portrait width=1.5in fig-align="right" fig-pos="H"}
+![Foto Khanza Ardelia Sumardi](images/author/khanza.jpeg){.author-portrait width=1.5in fig-align="right" fig-pos="H"}
 
 **[Khanza Ardelia Sumardi](https://www.linkedin.com/in/khanza-ardelia-sumardi-556759426/)** merupakan mahasiswa baru Program Studi Sains Data di Institut Teknologi Sains Bandung (ITSB), angkatan 2026. Saat ini, ia sedang menempuh pendidikan dan mengembangkan pengetahuan di bidang sains data, khususnya dalam statistika, analisis data, serta pemrograman.
 
