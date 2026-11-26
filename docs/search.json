@@ -190,6 +190,16 @@
     ]
   },
   {
+    "objectID": "chapters/bab-1.html#interpretasi-pemahaman-pribadi",
+    "href": "chapters/bab-1.html#interpretasi-pemahaman-pribadi",
+    "title": "1  Distribusi Sampling",
+    "section": "1.15 Interpretasi Pemahaman Pribadi",
+    "text": "1.15 Interpretasi Pemahaman Pribadi\n\nSampel digunakan untuk mewakili populasi karena tidak semua data bisa diteliti satu per satu.\nDistribusi Sampling adalah distribusi dari hasil statistik sampel jika pengambilan sampel dilakukan berulang kali.\nCentral Limit Theorem (CLT) menjelaskan bahwa rata-rata sampel cenderung mengikuti distribusi normal jika jumlah sampelnya cukup besar.\nStandard Error (SE) digunakan untuk mengukur seberapa jauh hasil perkiraan bisa berbeda dari nilai sebenarnya.\nPoint Estimate adalah perkiraan parameter populasi dalam bentuk satu angka.\nConfidence Interval adalah rentang nilai yang diperkirakan mencakup parameter populasi.\nSemakin besar jumlah sampel, biasanya hasil perkiraan semakin akurat dan tingkat kesalahannya semakin kecil.\n\n\n──────────────────────────────────────",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Distribusi Sampling</span>"
+    ]
+  },
+  {
     "objectID": "chapters/bab-2.html",
     "href": "chapters/bab-2.html",
     "title": "2  Hypothesis Testing",
@@ -315,6 +325,16 @@
     "title": "2  Hypothesis Testing",
     "section": "2.12 Rangkuman dan Kesimpulan",
     "text": "2.12 Rangkuman dan Kesimpulan\n\nLogika uji hipotesis sama dengan pengadilan: asumsikan \\(H_0\\) benar, lalu nilai seberapa mengejutkan data; tolak \\(H_0\\) hanya jika bukti kuat.\nHipotesis dinyatakan tentang parameter; \\(H_0\\) selalu memuat kesamaan; arah uji ditentukan dari pertanyaan penelitian sebelum melihat data.\nStatistik uji mengukur jarak estimasi dari \\(H_0\\) dalam satuan \\(SE\\). Keputusan dapat diambil dengan nilai kritis atau p-value – keduanya setara.\nP-value adalah peluang hasil seekstrem ini jika \\(H_0\\) benar – bukan peluang \\(H_0\\) benar.\nKesalahan Tipe I (\\(\\alpha\\)) dan Tipe II (\\(\\beta\\)) saling tarik-menarik; hanya sampel lebih besar yang dapat mengurangi keduanya sekaligus. Rancang studi dengan power memadai.\nSignifikan secara statistik belum tentu penting secara praktis; laporkan besar efek dan selang kepercayaan, dan waspadai uji berganda.\n\n\nJembatan ke sesi berikutnya: hari ini kita memakai uji \\(z\\) dengan \\(\\sigma\\) diketahui sebagai kendaraan untuk memahami konsep. Pertemuan 11 membahas situasi yang jauh lebih sering dijumpai – \\(\\sigma\\) tidak diketahui – dengan uji \\(t\\) satu sampel, dua sampel independen, dan berpasangan, beserta uji \\(z\\) dua sampel.\n\n\n──────────────────────────────────────",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Hypothesis Testing</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/bab-2.html#interpretasi-pemahaman-pribadi",
+    "href": "chapters/bab-2.html#interpretasi-pemahaman-pribadi",
+    "title": "2  Hypothesis Testing",
+    "section": "2.13 Interpretasi Pemahaman Pribadi",
+    "text": "2.13 Interpretasi Pemahaman Pribadi\n\nUji hipotesis digunakan untuk membuktikan suatu dugaan berdasarkan data yang sudah dikumpulkan.\nH0 (Hipotesis Nol): dugaan bahwa tidak ada pengaruh, perbedaan, atau perubahan.\nH1 (Hipotesis Alternatif): dugaan bahwa ada pengaruh, perbedaan, atau perubahan.\nP-Value digunakan untuk membantu menentukan apakah H0 ditolak atau gagal ditolak.\nJika P-Value &lt;= 0,05, maka H0 ditolak.\nJika P-Value &gt; 0,05, maka gagal menolak H0.\nAda dua jenis kesalahan dalam uji hipotesis, yaitu kesalahan Tipe I dan Tipe II.\nKesimpulan uji hipotesis harus disesuaikan dengan data dan konteks permasalahan.\nHasil yang signifikan secara statistik belum tentu memiliki pengaruh yang besar dalam kehidupan nyata.\n\n\n──────────────────────────────────────",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Hypothesis Testing</span>"
     ]
