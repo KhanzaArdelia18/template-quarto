@@ -711,3 +711,19 @@ Kerjakan soal-soal berikut secara mandiri sebelum melihat kunci jawaban pada kom
 
 
 <center>──────────────────────────────────────</center>
+
+
+# Interpretasi Pemahaman Pribadi
+
+- Uji hipotesis digunakan untuk membuktikan suatu dugaan berdasarkan data yang sudah dikumpulkan.
+- H0 (Hipotesis Nol): dugaan bahwa tidak ada pengaruh, perbedaan, atau perubahan.
+- H1 (Hipotesis Alternatif): dugaan bahwa ada pengaruh, perbedaan, atau perubahan.
+- P-Value digunakan untuk membantu menentukan apakah H0 ditolak atau gagal ditolak.
+- Jika P-Value <= 0,05, maka H0 ditolak.
+- Jika P-Value > 0,05, maka gagal menolak H0.
+- Ada dua jenis kesalahan dalam uji hipotesis, yaitu kesalahan Tipe I dan Tipe II.
+- Kesimpulan uji hipotesis harus disesuaikan dengan data dan konteks permasalahan.
+- Hasil yang signifikan secara statistik belum tentu memiliki pengaruh yang besar dalam kehidupan nyata.
+
+
+<center>──────────────────────────────────────</center>

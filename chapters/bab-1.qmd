@@ -1,7 +1,5 @@
 # Distribusi Sampling
 
-## Pendahuluan
-
 ## Tiga Distribusi yang Harus Dibedakan
 
 ### Empat Metode Utama
@@ -757,3 +755,15 @@ t.test(ph)$conf.int
 
 <center>──────────────────────────────────────</center>
 
+## Interpretasi Pemahaman Pribadi
+
+- Sampel digunakan untuk mewakili populasi karena tidak semua data bisa diteliti satu per satu.
+- Distribusi Sampling adalah distribusi dari hasil statistik sampel jika pengambilan sampel dilakukan berulang kali.
+- Central Limit Theorem (CLT) menjelaskan bahwa rata-rata sampel cenderung mengikuti distribusi normal jika jumlah sampelnya cukup besar.
+- Standard Error (SE) digunakan untuk mengukur seberapa jauh hasil perkiraan bisa berbeda dari nilai sebenarnya.
+- Point Estimate adalah perkiraan parameter populasi dalam bentuk satu angka.
+- Confidence Interval adalah rentang nilai yang diperkirakan mencakup parameter populasi.
+- Semakin besar jumlah sampel, biasanya hasil perkiraan semakin akurat dan tingkat kesalahannya semakin kecil.
+
+
+<center>──────────────────────────────────────</center>
