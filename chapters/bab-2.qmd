@@ -713,7 +713,7 @@ Kerjakan soal-soal berikut secara mandiri sebelum melihat kunci jawaban pada kom
 <center>──────────────────────────────────────</center>
 
 
-# Interpretasi Pemahaman Pribadi
+## Interpretasi Pemahaman Pribadi
 
 - Uji hipotesis digunakan untuk membuktikan suatu dugaan berdasarkan data yang sudah dikumpulkan.
 - H0 (Hipotesis Nol): dugaan bahwa tidak ada pengaruh, perbedaan, atau perubahan.
