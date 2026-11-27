@@ -8,7 +8,7 @@ project:
     - assets/epub-reader.js
 
 book:
-  title: "Pratikum Introduction Statistics"
+  title: "Introduction to Statistics Praticum"
   author: "Khanza Ardelia Sumardi"
   date: today
   description: "Deskripsi singkat tentang buku"
