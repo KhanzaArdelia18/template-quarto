@@ -6,8 +6,6 @@ description: "Deskripsi Singkat"
 
 # Kata Pengantar {.unnumbered}
 
-Kata Pengantar
-
 Puji syukur saya panjatkan ke hadirat Tuhan Yang Maha Esa karena atas rahmat dan karunia-Nya, e-book Introduction to Statistics Praticum ini dapat disusun dan diselesaikan dengan baik.
 
 E-book ini dibuat sebagai salah satu bentuk dokumentasi dan rangkuman materi selama mengikuti kegiatan praktikum Introduction Statistics. Di dalamnya terdapat beberapa materi yang telah dipelajari, mulai dari konsep dasar statistika, distribusi sampling, estimasi, hingga pengujian hipotesis.
@@ -38,7 +36,7 @@ E-book ini merupakan salah satu bagian dari proses pembelajaran dan pengembangan
 Dalam proses penyusunan e-book Kumpulan Materi Introduction Statistics ini, saya ingin mengucapkan terima kasih kepada beberapa pihak yang telah mendukung proses pembelajaran dan penyusunannya, yaitu:
 
 * Tuhan Yang Maha Esa, atas rahmat dan kelancaran yang diberikan selama proses pembelajaran hingga penyusunan e-book ini.
-* Dosen pengampu dan asisten praktikum, yang telah memberikan materi, arahan, serta penjelasan selama kegiatan praktikum Introduction Statistics.
+* Dosen pengampu yang telah memberikan materi, arahan, serta penjelasan selama kegiatan praktikum Introduction Statistics.
 * Teman-teman perkuliahan, yang telah menjadi bagian dari proses belajar dan saling berbagi pemahaman selama kegiatan praktikum.
 * Institusi dan Organisasi, Khususnya **[ITSB](https://itsb.ac.id/)** yang telah menyediakan sumber daya dan fasilitas yang diperlukan selama proses penelitian dan penulisan.
 
