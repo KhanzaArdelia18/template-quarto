@@ -18,7 +18,7 @@ book:
   sidebar:
     tools:
       - icon: file-pdf
-        href: Quarto-Template.pdf
+        href: Introduction-to-Statistics-Praticum.pdf
         text: Pratinjau PDF
         aria-label: Pratinjau PDF
       - icon: journal
