@@ -8,7 +8,7 @@ const turnSheet = document.getElementById("turn-sheet");
 async function openEpub() {
   try {
     const spreadQuery = window.matchMedia("(min-width: 760px)");
-    const book = ePub("./Quarto-Template.epub");
+    const book = ePub("./Introduction-to-Statistics-Praticum.epub");
     const rendition = book.renderTo("viewer", {
       width: "100%",
       height: "100%",
