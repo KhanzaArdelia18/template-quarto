@@ -133,39 +133,6 @@
 \makeatother
 
 
-% definitions for citeproc citations
-\NewDocumentCommand\citeproctext{}{}
-\NewDocumentCommand\citeproc{mm}{%
-  \begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
-\makeatletter
- % allow citations to break across lines
- \let\@cite@ofmt\@firstofone
- % avoid brackets around text for \cite:
- \def\@biblabel#1{}
- \def\@cite#1#2{{#1\if@tempswa , #2\fi}}
-\makeatother
-\newlength{\cslhangindent}
-\setlength{\cslhangindent}{1.5em}
-\newlength{\csllabelwidth}
-\setlength{\csllabelwidth}{3em}
-\newenvironment{CSLReferences}[2] % #1 hanging-indent, #2 entry-spacing
- {\begin{list}{}{%
-  \setlength{\itemindent}{0pt}
-  \setlength{\leftmargin}{0pt}
-  \setlength{\parsep}{0pt}
-  % turn on hanging indent if param 1 is 1
-  \ifodd #1
-   \setlength{\leftmargin}{\cslhangindent}
-   \setlength{\itemindent}{-1\cslhangindent}
-  \fi
-  % set entry spacing
-  \setlength{\itemsep}{#2\baselineskip}}}
- {\end{list}}
-\usepackage{calc}
-\newcommand{\CSLBlock}[1]{\hfill\break\parbox[t]{\linewidth}{\strut\ignorespaces#1\strut}}
-\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
-\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
-\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 
 \ifLuaTeX
 \usepackage[bidi=basic,shorthands=off,provide=*]{babel}
@@ -263,7 +230,7 @@
 
 \title{Introduction to Statistics Praticum}
 \author{Khanza Ardelia Sumardi}
-\date{2026-11-25}
+\date{2026-11-28}
 \begin{document}
 \frontmatter
 \maketitle
@@ -282,52 +249,32 @@
 
 \markboth{Kata Pengantar}{Kata Pengantar}
 
-Dengan mengucap syukur kepada Tuhan Yang Maha Esa, saya sangat senang
-dapat mempersembahkan eBook \textbf{``Quarto Template''} kepada para
-pembaca dan pengguna. eBook ini disusun sebagai panduan praktis untuk
-membantu mahasiswa, dosen, peneliti, serta praktisi dalam memanfaatkan
-Quarto sebagai salah satu perangkat untuk menyusun, mengelola, dan
-menerbitkan dokumen secara profesional.
+Puji syukur saya panjatkan ke hadirat Tuhan Yang Maha Esa karena atas
+rahmat dan karunia-Nya, e-book Introduction to Statistics Praticum ini
+dapat disusun dan diselesaikan dengan baik.
 
-Quarto merupakan perangkat \emph{open-source scientific and technical
-publishing} yang memungkinkan pengguna mengintegrasikan teks, kode
-pemrograman, hasil analisis, visualisasi data, serta berbagai elemen
-pendukung lainnya ke dalam satu dokumen. Dengan Quarto, proses penulisan
-dan publikasi dapat dilakukan secara lebih terstruktur, reproducible,
-dan efisien dalam berbagai format keluaran, seperti HTML, PDF, Microsoft
-Word, serta format publikasi lainnya.
+E-book ini dibuat sebagai salah satu bentuk dokumentasi dan rangkuman
+materi selama mengikuti kegiatan praktikum Introduction Statistics. Di
+dalamnya terdapat beberapa materi yang telah dipelajari, mulai dari
+konsep dasar statistika, distribusi sampling, estimasi, hingga pengujian
+hipotesis.
 
-Contoh sitasi: tuliskan \texttt{{[}@xie2015{]}} untuk merujuk entri
-\texttt{xie2015} di \texttt{references/book.bib}. Pada hasil render,
-sitasinya tampil seperti ini \citeproc{ref-xie2015}{{[}1{]}}.
+Penyusunan e-book ini bertujuan untuk mengumpulkan materi pembelajaran
+ke dalam satu dokumen agar lebih mudah dibaca, dipahami, dan dipelajari
+kembali. Selain itu, e-book ini juga diharapkan dapat membantu dalam
+mengingat konsep-konsep penting yang telah dipelajari selama
+perkuliahan.
 
-Melalui eBook ini, pembaca akan diperkenalkan pada penggunaan template
-Quarto, mulai dari pengenalan struktur proyek, pengaturan konfigurasi,
-penulisan dokumen menggunakan Markdown, integrasi kode pemrograman,
-pengelolaan referensi, hingga proses \emph{rendering} menjadi dokumen
-yang siap digunakan dan dipublikasikan.
+Dalam proses penyusunannya, saya berusaha menyajikan materi secara
+terstruktur dengan menggunakan penjelasan yang sederhana agar lebih
+mudah dipahami. Saya menyadari bahwa e-book ini masih memiliki
+kekurangan, baik dalam penyajian materi maupun penyusunannya. Oleh
+karena itu, kritik dan saran yang membangun sangat saya harapkan untuk
+perbaikan ke depannya.
 
-Materi disusun secara bertahap agar mudah dipahami dan dipraktikkan,
-termasuk oleh pengguna yang baru pertama kali mengenal Quarto. Template
-dan contoh yang disajikan diharapkan dapat menjadi referensi dalam
-mengembangkan berbagai kebutuhan dokumentasi akademik, laporan
-penelitian, modul pembelajaran, buku elektronik, maupun publikasi
-berbasis data.
-
-Saya berharap eBook ini dapat memberikan manfaat nyata dalam mendukung
-peningkatan literasi digital, produktivitas akademik, dan penerapan
-praktik penulisan ilmiah yang modern. Lebih dari sekadar panduan teknis,
-eBook ini diharapkan dapat mendorong pembaca untuk mengeksplorasi
-berbagai kemampuan Quarto dan mengembangkan template sesuai dengan
-kebutuhan masing-masing.
-
-Saya menyadari bahwa eBook ini masih memiliki ruang untuk penyempurnaan.
-Oleh karena itu, kritik, saran, dan masukan dari para pembaca sangat
-diharapkan sebagai bahan evaluasi untuk pengembangan edisi berikutnya.
-
-Akhir kata, semoga eBook ini dapat menjadi referensi yang bermanfaat dan
-memberikan kontribusi positif bagi dunia pendidikan, penelitian, dan
-pengembangan ilmu pengetahuan.
+Akhir kata, semoga e-book ini dapat memberikan manfaat dan menjadi salah
+satu sumber belajar yang membantu dalam memahami materi Introduction
+Statistics.
 
 \textbf{Khanza Ardelia Sumardi}\\
 Penulis
@@ -348,44 +295,42 @@ Penulis
 \end{figure}%
 
 \textbf{\href{https://www.linkedin.com/in/khanza-ardelia-sumardi-556759426/}{Khanza
-Ardelia Sumardi}} bekerja sebagai Dosen di Prodi Sains Data Institut
-Teknologi Sains Bandung. Beliau adalah meraih gelar Magister-nya dari
-Departemen Matematika Terapan (Applied Mathematics) National Sun Yat Sen
-University, Taiwan. Selain mengajar beliau juga pernah bekerja sebagai
-\textbf{Data Scientist Freelance} di perusahaan-perusahaan ternama
-seperti \href{https://www.jne.co.id/id/beranda}{JNE},
-\href{https://www.samoragroup.co.id/home/en}{Samora Group},
-\href{https://www.pertamina.com/}{Pertamina}, dan saat ini masih aktif
-sebagai \textbf{Data Scientist Freelance} di
-\href{PT.\%20Green\%20City\%20Traffic}{PT. Green City Traffic}. Beliau
-memiliki antusiasme khusus dalam mengerjakan proyek (mengajar) Big Data
-Analytics, Machine Learning, Optimisasi, dan Analisis Time Series di
-bidang keuangan dan investasi. Keahlian utama yang dimilikinya adalah
-bahasa pemrograman Statistik seperti R Studio dan Python. Beliau juga
-sudah terbiasa dalam mengaplikasikan sistem basis data MySQL/NoSQL untuk
-manajemen data, serta mahir dalam menggunakan tools Big Data seperti
-Spark dan Hadoop. Beberapa project beliau dapat dilihat di link berikut:
-\href{https://rpubs.com/dsciencelabs}{Rpubs},
-\href{https://github.com/dsciencelabs}{Github},
-\href{https://dsciencelabs.github.io/web/index.html}{Website}, dan
-\href{https://www.kaggle.com/baktisiregar/code}{Kaggle}.
+Ardelia Sumardi}} merupakan mahasiswa baru Program Studi Sains Data di
+Institut Teknologi Sains Bandung (ITSB), angkatan 2026. Saat ini, ia
+sedang menempuh pendidikan dan mengembangkan pengetahuan di bidang sains
+data, khususnya dalam statistika, analisis data, serta pemrograman.
+
+Sebagai mahasiswa baru, Saya memiliki ketertarikan untuk mempelajari
+berbagai penerapan teknologi dan pengolahan data dalam kehidupan
+sehari-hari. Melalui proses perkuliahan dan berbagai kegiatan akademik,
+ia terus mengembangkan kemampuan berpikir analitis, pemecahan masalah,
+serta keterampilan dalam menggunakan teknologi untuk mengolah dan
+memahami data.
+
+E-book ini merupakan salah satu bagian dari proses pembelajaran dan
+pengembangan kemampuan saya selama menempuh pendidikan di Program Studi
+Sains Data ITSB.
 
 \section*{Ucapan Terima Kasih}\label{ucapan-terima-kasih}
 \addcontentsline{toc}{section}{Ucapan Terima Kasih}
 
 \markright{Ucapan Terima Kasih}
 
-Proses penulisan Tempate eBook ini tidak terlepas dari dukungan berbagai
-pihak. Saya ingin mengucapkan terima kasih kepada:
+Dalam proses penyusunan e-book Kumpulan Materi Introduction Statistics
+ini, saya ingin mengucapkan terima kasih kepada beberapa pihak yang
+telah mendukung proses pembelajaran dan penyusunannya, yaitu:
 
 \begin{itemize}
 \tightlist
 \item
-  \textbf{Keluarga} yang selalu memberikan dukungan moral dan semangat
-  tanpa henti.
+  Tuhan Yang Maha Esa, atas rahmat dan kelancaran yang diberikan selama
+  proses pembelajaran hingga penyusunan e-book ini.
 \item
-  \textbf{Rekan-rekan dan Kolaborator} yang telah memberikan masukan,
-  saran, dan kritik yang konstruktif.
+  Dosen pengampu yang telah memberikan materi, arahan, serta penjelasan
+  selama kegiatan praktikum Introduction Statistics.
+\item
+  Teman-teman perkuliahan, yang telah menjadi bagian dari proses belajar
+  dan saling berbagi pemahaman selama kegiatan praktikum.
 \item
   Institusi dan Organisasi, Khususnya
   \textbf{\href{https://itsb.ac.id/}{ITSB}} yang telah menyediakan
@@ -393,28 +338,30 @@ pihak. Saya ingin mengucapkan terima kasih kepada:
   penulisan.
 \end{itemize}
 
-Saya berharap Template eBook ini dapat menjadi referensi yang bermanfaat
-dan memberikan inspirasi serta pengetahuan baru bagi pembaca. Semoga
-Ebook ini dapat memenuhi ekspektasi dan kebutuhan para pembaca dan
-semoga ilmu yang disampaikan dapat bermanfaat bagi semua.
+Saya berharap e-book ini dapat memberikan manfaat dan membantu pembaca
+dalam mempelajari kembali materi Introduction Statistics.
 
 \section*{Masukan \& Saran}\label{masukan-saran}
 \addcontentsline{toc}{section}{Masukan \& Saran}
 
 \markright{Masukan \& Saran}
 
-Semua masukan dan tanggapan Anda sangat berarti bagi kami untuk
-memperbaiki Ebook Quarto Template ini kedepannya. Bagi para
-pembaca/pengguna yang ingin menyampaikan masukan dan tanggapan,
-dipersilahkan melalui kontak dibawah ini!
+E-book Kumpulan Materi Introduction Statistics ini disusun sebagai bahan
+dokumentasi sekaligus sarana untuk mempelajari kembali materi yang telah
+dibahas selama praktikum.
+
+Saya menyadari bahwa masih terdapat kekurangan dalam penyusunan e-book
+ini. Oleh karena itu, setiap kritik, saran, dan masukan sangat terbuka
+untuk membantu meningkatkan kualitas isi maupun penyajian materi.
+
+Bagi pembaca yang ingin memberikan masukan atau saran, dapat
+menyampaikannya melalui kontak berikut:
 
 \textbf{Email:} khanzasumardi18@gmail.com
 
 \bookmarksetup{startatroot}
 
 \chapter{Distribusi Sampling}\label{distribusi-sampling}
-
-\section{Pendahuluan}\label{pendahuluan}
 
 \section{Tiga Distribusi yang Harus
 Dibedakan}\label{tiga-distribusi-yang-harus-dibedakan}
@@ -1844,6 +1791,37 @@ Pertanyaan itulah inti \textbf{uji hipotesis} di Pertemuan 10: \(H_0\),
 \(H_1\), tingkat signifikansi, \emph{p-value}, dan kesalahan Tipe I dan
 II.
 \end{quote}
+
+──────────────────────────────────────
+
+\section{Interpretasi Pemahaman
+Pribadi}\label{interpretasi-pemahaman-pribadi}
+
+\begin{itemize}
+\tightlist
+\item
+  Sampel digunakan untuk mewakili populasi karena tidak semua data bisa
+  diteliti satu per satu.
+\item
+  Distribusi Sampling adalah distribusi dari hasil statistik sampel jika
+  pengambilan sampel dilakukan berulang kali.
+\item
+  Central Limit Theorem (CLT) menjelaskan bahwa rata-rata sampel
+  cenderung mengikuti distribusi normal jika jumlah sampelnya cukup
+  besar.
+\item
+  Standard Error (SE) digunakan untuk mengukur seberapa jauh hasil
+  perkiraan bisa berbeda dari nilai sebenarnya.
+\item
+  Point Estimate adalah perkiraan parameter populasi dalam bentuk satu
+  angka.
+\item
+  Confidence Interval adalah rentang nilai yang diperkirakan mencakup
+  parameter populasi.
+\item
+  Semakin besar jumlah sampel, biasanya hasil perkiraan semakin akurat
+  dan tingkat kesalahannya semakin kecil.
+\end{itemize}
 
 ──────────────────────────────────────
 
@@ -3332,6 +3310,40 @@ sampel.
 
 ──────────────────────────────────────
 
+\section{Interpretasi Pemahaman
+Pribadi}\label{interpretasi-pemahaman-pribadi-1}
+
+\begin{itemize}
+\tightlist
+\item
+  Uji hipotesis digunakan untuk membuktikan suatu dugaan berdasarkan
+  data yang sudah dikumpulkan.
+\item
+  H0 (Hipotesis Nol): dugaan bahwa tidak ada pengaruh, perbedaan, atau
+  perubahan.
+\item
+  H1 (Hipotesis Alternatif): dugaan bahwa ada pengaruh, perbedaan, atau
+  perubahan.
+\item
+  P-Value digunakan untuk membantu menentukan apakah H0 ditolak atau
+  gagal ditolak.
+\item
+  Jika P-Value \textless= 0,05, maka H0 ditolak.
+\item
+  Jika P-Value \textgreater{} 0,05, maka gagal menolak H0.
+\item
+  Ada dua jenis kesalahan dalam uji hipotesis, yaitu kesalahan Tipe I
+  dan Tipe II.
+\item
+  Kesimpulan uji hipotesis harus disesuaikan dengan data dan konteks
+  permasalahan.
+\item
+  Hasil yang signifikan secara statistik belum tentu memiliki pengaruh
+  yang besar dalam kehidupan nyata.
+\end{itemize}
+
+──────────────────────────────────────
+
 \bookmarksetup{startatroot}
 
 \chapter{Bab3}\label{bab3}
@@ -3346,14 +3358,6 @@ sampel.
 \markboth{Referensi}{Referensi}
 
 \protect\phantomsection\label{refs}
-\begin{CSLReferences}{0}{0}
-\bibitem[\citeproctext]{ref-xie2015}
-\CSLLeftMargin{{[}1{]} }%
-\CSLRightInline{Y. Xie, \emph{\href{http://yihui.name/knitr/}{Dynamic
-Documents with {R} and knitr}}, 2nd ed. Boca Raton, Florida: Chapman;
-Hall/CRC, 2015.}
-
-\end{CSLReferences}
 
 
 \backmatter
